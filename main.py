@@ -13,12 +13,12 @@ email = "deysaurya@gmail.com"
 app_password = os.environ.get("APP_PASSWORD")
 
 
-sil_lat = 26.7271
-sil_long = 88.3953
+sil_lat = 26.7271 # my city lat
+sil_long = 88.3953 # my city lon
 
 weather_params = {
-    "lat":13.0827,
-    "lon": 80.2707,
+    "lat":13.0827, # lat of rain prone area of Chennai 
+    "lon": 80.2707, # lon of rain prone area of Chennai
     "appid": api_key,
     "cnt": 4,
 }
